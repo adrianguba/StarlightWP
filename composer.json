@@ -1,0 +1,10 @@
+{
+    "require": {
+        "johnbillion/extended-template-parts": "^2.2"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
