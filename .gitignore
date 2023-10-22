@@ -1,0 +1,4 @@
+/wordpress/
+/content/plugins/*
+/content/themes/*
+!/content/themes/starter-theme
