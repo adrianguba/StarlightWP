@@ -1,0 +1,15 @@
+{
+    "name": "sst/sample-block",
+    "title": "Sample Block",
+    "description": "A custom sample block that uses ACF fields.",
+    "category": "test",
+    "icon": "admin-comments",
+    "keywords": ["sample", "block"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "sample-block.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}

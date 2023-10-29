@@ -11,7 +11,9 @@ services:
       WORDPRESS_DB_USER: exampleuser
       WORDPRESS_DB_PASSWORD: examplepass
       WORDPRESS_DB_NAME: exampledb
+      WORDPRESS_DEBUG: 1
     volumes:
+      - ./.config/wordpress.ini:/usr/local/etc/php/conf.d/wordpress.ini
       - ./vendor:/var/www/vendor
       - ./wordpress:/var/www/html
       - ./content/plugins:/var/www/html/wp-content/plugins
