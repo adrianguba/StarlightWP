@@ -5,7 +5,7 @@
 		<h1><?php the_title(); ?></h1>
 		<?php 
 		get_extended_template_part( 'sample', 'template-part', [
-			'content' => 'This is the test'
+			'content' => 'This is the test, component included in page'
 		] );
 		?>
 		<?php the_content(); ?>
