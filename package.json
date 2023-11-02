@@ -1,0 +1,25 @@
+{
+  "name": "wordpress-starter",
+  "version": "1.0.0",
+  "description": "Simple Wordpress starter theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"dev": "npx tailwindcss -i ./content/themes/starter-theme/styles/index.css -o ./content/themes/starter-theme/dist/index.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianguba/Wordpress-Starter.git"
+  },
+  "author": "Adrian Guba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adrianguba/Wordpress-Starter/issues"
+  },
+  "homepage": "https://github.com/adrianguba/Wordpress-Starter#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss-import": "^15.1.0",
+    "tailwindcss": "^3.3.5"
+  }
+}
