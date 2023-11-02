@@ -4,4 +4,4 @@
 /content/plugins/*
 /content/themes/*
 !/content/themes/starter-theme
-/content/themes/starter-theme/dist
+/content/themes/starter-theme/dist/*
